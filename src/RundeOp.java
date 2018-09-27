@@ -4,6 +4,6 @@ public class RundeOp {
 
         double k = 6.6;
 
-                System.out.println(k)
+                System.out.println(Math.round(k));
     }
 }
