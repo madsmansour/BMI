@@ -17,9 +17,9 @@ public class Rand {
         System.out.println("Hvor gammel er din ven?");
         int dinVensAlder = input.nextInt();
 
-        System.out.println("Aldersforskellen på jer er " + (dinAlder - dinVensAlder));
+        System.out.println("Aldersforskellen på jer er " + (dinAlder - dinVensAlder) + " år");
 
         Computer myComputer = new Computer("intel i5", "8gb", "256 gb", "Nvidia geforce something", true);
-        System.out.println("my computers CPU is: " + myComputer.RAM);
+        System.out.println("my computers CPU is: " + myComputer.CPU);
     }
 }
