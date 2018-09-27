@@ -6,6 +6,7 @@ public class Cards {
 
         Random random = new Random();
 
+        // caster til int
         int cardNumber = random.ints(1, 53).limit(1).findFirst().getAsInt();
 
         System.out.print("The card you picked is ");

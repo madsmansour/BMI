@@ -1,6 +1,10 @@
+import jdk.nashorn.api.tree.LoopTree;
+
 public class Cards_2 {
     public static void main(String[] args) {
 
+
+        //caster til int så den vælger et random HELT tal for 1 til 52
         int key = (int) ((Math.random()*((52-1)+1)));
 
 
@@ -161,6 +165,5 @@ public class Cards_2 {
         case 52:
         System.out.println("You got the 6 of hearts");
         break;
-
     }
 }}
